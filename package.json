@@ -1,6 +1,6 @@
 {
   "name": "react-identicons",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Identicon component for React",
   "main": "build/index.js",
   "scripts": {
