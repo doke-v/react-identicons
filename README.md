@@ -43,4 +43,4 @@ Code above should result in the following identicon:
 * `fg` (String) Override color for foreground blocks. Generated randomly by hash by default.
 * `palette` (Array) Provide an array of colors to be used as foreground block colors.
 * `count` (Number) Block count, can't be higher than 5. Useful for generating smaller (i.e. 3x3 identicons)
-* `getColor` (Function) Callback function which returns randomly generated color value (hex)
+* `getColor` (Function) Callback function which returns current foreground color value (hex)
