@@ -18,7 +18,9 @@ npm install react-identicons --save
 ## Basic usage
 
 ```javascript
+import React, { Component } from 'react';
 import Identicon from 'react-identicons';
+
 class App extends Component {
   render() {
     return (
