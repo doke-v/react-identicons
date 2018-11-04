@@ -1,6 +1,6 @@
 {
   "name": "react-identicons",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Identicon component for React",
   "repository": "github:tuhnik/react-identicons",
   "main": "build/index.js",
@@ -29,7 +29,8 @@
   },
   "keywords": [
     "identicon",
-    "react component"
+    "react", 
+    "component"
   ],
   "author": "Tuhnik",
   "license": "ISC"
