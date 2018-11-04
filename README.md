@@ -19,7 +19,7 @@ npm install react-identicons --save
 
 ```javascript
 import Identicon from 'react-identicons';
-state = {name: "myrandomname"}
+state = {name: "randomness"}
 class App extends Component {
   render() {
     return (
@@ -29,6 +29,9 @@ class App extends Component {
   }
 }
 ```
+Code above should result in the following identicon:  
+
+![Identicon](img/identicon.png)
 
 ## Props
 
