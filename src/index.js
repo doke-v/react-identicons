@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import md5 from "../js/md5.min"
-let range = function (n, in_min, in_max, out_min, out_max) {
-    return (n - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
-  }
+
 class Identicon extends Component {
     constructor(props) {
         super(props);
         this.canvas = React.createRef();
-  
       }
     componentDidMount() {
         this.updateCanvas(this.props);
@@ -19,13 +16,17 @@ class Identicon extends Component {
         let {fg, bg, count, palette} = props
         let hash = md5(props.string)
         let block = Math.floor(props.size/count)
-     
+        let hashcolor = hash.slice(0,6)
+
         if(palette && palette.length) {
             let palette_index = Math.floor(range(parseInt(hash.slice(-3), 16), 0, 4095, 0, palette.length))
             fg = palette[palette_index]
         }
-        
 
+        if(this.props.getColor) {
+            this.props.getColor(fg || hashcolor)
+        }
+        
         let pad = props.padding;
         this.canvas.current.width = block*count + pad
         this.canvas.current.height = block*count + pad
@@ -34,20 +35,21 @@ class Identicon extends Component {
             if(el < 8) {return 0}
             else {return 1}
         })
-        
-        let map = []
+           
+        let map = [];
+
         map[0] = map[4] = arr.slice(0, 5)
         map[1] = map[3] = arr.slice(5, 10)
         map[2] = arr.slice(10, 15)
-
-        
+ 
         const ctx = this.canvas.current.getContext('2d');
         ctx.imageSmoothingEnabled = false
         ctx.clearRect(0, 0, this.canvas.current.width, this.canvas.current.height);
+        
         map.forEach((row, i) => {
             row.forEach((el, j) => {
                 if (el) {
-                    ctx.fillStyle = fg?fg:"#" + hash.slice(0,6)  ;
+                    ctx.fillStyle = fg?fg:"#" + hashcolor  ;
                     ctx.fillRect(block * i + pad, block * j + pad, block - pad, block - pad);
                 }
                 else{
@@ -72,7 +74,11 @@ class Identicon extends Component {
     fg: null,
     padding: 0,
     size: 400,
+    getColor: null,
     string: ""
   }
-
+  
+  let range = function (n, in_min, in_max, out_min, out_max) {
+    return (n - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+  }
 export default Identicon
