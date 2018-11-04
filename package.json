@@ -1,7 +1,8 @@
 {
   "name": "react-identicons",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Identicon component for React",
+  "repository": "github:tuhnik/react-identicons",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
