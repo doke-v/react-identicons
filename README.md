@@ -9,15 +9,15 @@
   <img src="https://img.shields.io/npm/l/react-identicons.svg"/>
 </div>
 
+## Live demo
+
+[tuhnik.github.io/identicon-live](https://tuhnik.github.io/identicon-live/)
 
 ## Setup
 
 ```bash
 npm install react-identicons --save
 ```
-
-## Live demo
-[tuhnik.github.io/identicon-live](https://tuhnik.github.io/identicon-live/)
 
 ## Basic usage
 
