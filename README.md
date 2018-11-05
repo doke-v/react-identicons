@@ -3,7 +3,7 @@
   <strong>React component for generating and displaying github-style identicons.</strong>
 </div>
 </br>
-<div align="center">  
+<div align="center">
   <img src="https://img.shields.io/bundlephobia/min/react-identicons.svg"/>
   <img src="https://img.shields.io/npm/v/react-identicons.svg"/>
   <img src="https://img.shields.io/npm/l/react-identicons.svg"/>
@@ -15,6 +15,10 @@
 ```bash
 npm install react-identicons --save
 ```
+
+## Live demo
+[tuhnik.github.io/identicon-live](https://tuhnik.github.io/identicon-live/)
+
 ## Basic usage
 
 ```javascript
@@ -29,8 +33,9 @@ class App extends Component {
     );
   }
 }
+export default App;
 ```
-Code above should result in the following identicon:  
+Code above should result in the following identicon:
 
 ![Identicon](https://github.com/tuhnik/react-identicons/blob/master/img/identicon.png?raw=true)
 
