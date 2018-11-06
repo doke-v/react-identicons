@@ -4,9 +4,9 @@
 </div>
 </br>
 <div align="center">
-  <img src="https://img.shields.io/bundlephobia/min/react-identicons.svg"/>
-  <img src="https://img.shields.io/npm/v/react-identicons.svg"/>
-  <img src="https://img.shields.io/npm/l/react-identicons.svg"/>
+  <a href="https://www.npmjs.com/package/react-identicons"><img src="https://img.shields.io/bundlephobia/min/react-identicons.svg"/></a>
+  <a href="https://www.npmjs.com/package/react-identicons"><img src="https://img.shields.io/npm/v/react-identicons.svg"/></a>
+  <a href="https://www.npmjs.com/package/react-identicons"><img src="https://img.shields.io/npm/l/react-identicons.svg"/></a>
 </div>
 
 ## Live demo
