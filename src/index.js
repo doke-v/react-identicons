@@ -19,7 +19,7 @@ const Identicon = props => {
 
   useEffect(() => {
     updateCanvas(props);
-  }, [props]);
+  });
 
   const updateCanvas = () => {
     let hash = md5(string);

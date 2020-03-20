@@ -11,7 +11,10 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: [path.resolve(__dirname, 'src'), path.resolve(__dirname, 'js'),],  
+        include: [
+          path.resolve(__dirname, 'src'),
+          path.resolve(__dirname, 'js')
+        ],
         exclude: /(node_modules|bower_components|build)/,
         use: {
           loader: 'babel-loader',
@@ -23,6 +26,6 @@ module.exports = {
     ]
   },
   externals: {
-    'react': 'commonjs react'
+    react: 'commonjs react'
   }
 };

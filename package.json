@@ -3,17 +3,28 @@
   "version": "1.2.2",
   "description": "Identicon component for React",
   "repository": "github:tuhnik/react-identicons",
+  "homepage": "http://tuhnik.github.io/react-identicons",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook",
+    "deploy": "gh-pages -d storybook-static",
+    "prepublish": "rm -rf ./build && npm run build"
   },
   "peerDependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-knobs": "^5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/preset-create-react-app": "^2.0.0",
+    "@storybook/react": "^5.3.17",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -21,6 +32,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-runtime": "^6.26.0",
+    "gh-pages": "^2.2.0",
     "react-scripts": "^3.4.0",
     "webpack": "^4.24.0",
     "webpack-cli": "^3.1.2",
