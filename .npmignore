@@ -3,3 +3,5 @@ js
 img
 .babelrc
 webpack.config.js
+.storybook
+storybook-static
