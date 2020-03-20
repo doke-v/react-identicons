@@ -11,7 +11,9 @@
 
 ## Live demo
 
-[tuhnik.github.io/identicon-live](https://tuhnik.github.io/identicon-live/)
+[tuhnik.github.io/identicon-live (old)](https://tuhnik.github.io/identicon-live/)
+
+[tuhnik.github.io/react-identicons (storybook)](https://tuhnik.github.io/react-identicons/)
 
 ## Setup
 
