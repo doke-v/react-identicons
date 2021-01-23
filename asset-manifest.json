@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-identicons/main.3c93f59a3ee0cc00bd55.bundle.js",
-    "main.js.map": "/react-identicons/main.3c93f59a3ee0cc00bd55.bundle.js.map",
-    "runtime~main.js": "/react-identicons/runtime~main.3c93f59a3ee0cc00bd55.bundle.js",
-    "runtime~main.js.map": "/react-identicons/runtime~main.3c93f59a3ee0cc00bd55.bundle.js.map",
-    "vendors~main.js": "/react-identicons/vendors~main.3c93f59a3ee0cc00bd55.bundle.js",
-    "vendors~main.js.map": "/react-identicons/vendors~main.3c93f59a3ee0cc00bd55.bundle.js.map",
+    "main.js": "/react-identicons/main.ca13020b375d86f80635.bundle.js",
+    "main.js.map": "/react-identicons/main.ca13020b375d86f80635.bundle.js.map",
+    "runtime~main.js": "/react-identicons/runtime~main.ca13020b375d86f80635.bundle.js",
+    "runtime~main.js.map": "/react-identicons/runtime~main.ca13020b375d86f80635.bundle.js.map",
+    "vendors~main.js": "/react-identicons/vendors~main.ca13020b375d86f80635.bundle.js",
+    "vendors~main.js.map": "/react-identicons/vendors~main.ca13020b375d86f80635.bundle.js.map",
     "iframe.html": "/react-identicons/iframe.html",
-    "precache-manifest.c77430a531a4c4dbb7da146a521454e8.js": "/react-identicons/precache-manifest.c77430a531a4c4dbb7da146a521454e8.js",
+    "precache-manifest.08574c0285e3576f70338473f45a41d1.js": "/react-identicons/precache-manifest.08574c0285e3576f70338473f45a41d1.js",
     "service-worker.js": "/react-identicons/service-worker.js",
-    "vendors~main.3c93f59a3ee0cc00bd55.bundle.js.LICENSE.txt": "/react-identicons/vendors~main.3c93f59a3ee0cc00bd55.bundle.js.LICENSE.txt"
+    "vendors~main.ca13020b375d86f80635.bundle.js.LICENSE.txt": "/react-identicons/vendors~main.ca13020b375d86f80635.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.3c93f59a3ee0cc00bd55.bundle.js",
-    "vendors~main.3c93f59a3ee0cc00bd55.bundle.js",
-    "main.3c93f59a3ee0cc00bd55.bundle.js"
+    "runtime~main.ca13020b375d86f80635.bundle.js",
+    "vendors~main.ca13020b375d86f80635.bundle.js",
+    "main.ca13020b375d86f80635.bundle.js"
   ]
 }
