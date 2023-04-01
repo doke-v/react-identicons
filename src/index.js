@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import md5 from './js/md5.min';
+require("./js/md5.min.js");
 import range from './js/range';
 
 const Identicon = props => {
