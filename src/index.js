@@ -1,9 +1,10 @@
 import React, { useRef, useEffect } from 'react';
-// require("./js/md5.min.js");
-import * as md5 from './js/md5.min';
+// import * as md5 from './js/md5.min';
 import range from './js/range';
 
-const Identicon = props => {
+const md5 = require("./js/md5.min.js");
+
+export const Identicon = props => {
   let {
     fg,
     bg,
@@ -23,7 +24,7 @@ const Identicon = props => {
   });
 
   const updateCanvas = () => {
-    let hash = md5.md5(string);
+    let hash = md5(string);
     let block = Math.floor(size / count);
     let hashcolor = hash.slice(0, 6);
 
